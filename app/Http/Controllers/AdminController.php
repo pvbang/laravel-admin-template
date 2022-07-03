@@ -13,11 +13,11 @@ class AdminController extends Controller
 {
     //
     public function index(){
-        return view('admin.index')->with('route', 'dashboard');
+        return view('admin.app.template.index')->with('route', 'dashboard');
     }
 
     // template
     public function template($slug) {
-        return view('admin.index')->with('route', 'template.'.$slug);
+        return view('admin.app.template.index')->with('route', 'template.'.$slug);
     }
 }

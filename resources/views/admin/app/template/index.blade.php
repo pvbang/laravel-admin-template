@@ -2,10 +2,6 @@
 
 @section('admin_content')
     @switch($route)
-        @case('dashboard')
-            @include('admin.dashboard.index')
-        @break
-
         {{-- // Template --}}
         @case('template.dashboard')
             @include('admin.app.template.dashboard')
@@ -48,6 +44,6 @@
         @break
 
         @default
-            @include('admin.dashboard.index')
+            @include('admin.app.template.dashboard')
     @endswitch
 @endsection
