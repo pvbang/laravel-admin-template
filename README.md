@@ -1,9 +1,18 @@
 ## Admin Template Laravel -v
 
-### Link Source html copy: https://startbootstrap.com/theme/sb-admin-2 
+#### Link Source html copy: https://startbootstrap.com/theme/sb-admin-2 
 
-### Convert to Laravel by Phan Văn Bằng
+### Install: (Run in Terminal)
+```bash
+composer install 	
+# or: composer update 
+# or: composer install --ignore-platform-reqs  
+cp .env.example .env
+php artisan key:generate
+php artisan serve
+```
 
-#### Facebook: fb.com/it0902
-#### Github: github.com/ilyouu
-#### Email: pvbang23092002@gmail.com 
+## Dev: Phan Văn Bằng
+###### Facebook: fb.com/it0902
+###### Github: github.com/ilyouu
+###### Email: pvbang23092002@gmail.com
