@@ -9,8 +9,9 @@ https://startbootstrap.com/theme/sb-admin-2
 ### Install: (Run in Terminal)
 ```bash
 composer install 	
+# or: composer install --ignore-platform-reqs
 # or: composer update 
-# or: composer install --ignore-platform-reqs  
+# or: composer update --ignore-platform-reqs  
 cp .env.example .env
 php artisan key:generate
 php artisan serve
