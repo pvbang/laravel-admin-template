@@ -1,6 +1,10 @@
 ## Admin Template Laravel -v
 
-#### Link Source code HTML copy: https://startbootstrap.com/theme/sb-admin-2 
+### Convert to Laravel:
+```bash
+# Link Source code HTML copy: 
+https://startbootstrap.com/theme/sb-admin-2 
+```
 
 ### Install: (Run in Terminal)
 ```bash
